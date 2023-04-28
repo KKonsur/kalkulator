@@ -21,5 +21,4 @@ form.addEventListener('submit', (e) => {
 resetBtn.addEventListener('click', () => {
    price = 0
    amountInput.textContent = `${price.toFixed(2)} zł`
-   sheetsNumber.value = 0
 })
