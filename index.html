@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+   </head>
+   <style>
+      body {
+         background-color: #2b2b2b;
+         color: #fff;
+         font-size: 2rem;
+         font-family: sans-serif;
+         display: flex;
+         justify-content: center;
+      }
+      
+      input {
+         font-size: 1.5rem;
+      }
+
+      button {
+         font-size: 1.5rem;
+      }
+
+      .amount {
+         color: #f70c0c;
+      }
+   </style>
+   <body>
+      <form id="form">
+         <p>
+            Ilość stron: <input id="pages" autocomplete="off" />
+            <button id="count">Policz cene</button>
+         </p>
+         <p>Cena: <span id="amount" class="amount">0.00 zł</span></p>
+         <button id="reset-button" type="reset">Reset</button>
+      </form>
+      <script src="index.js"></script>
+   </body>
+</html>
